@@ -1,0 +1,21 @@
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+.container {
+    padding: 5px;
+}
+
+#disp_exceedAlert {
+    color: red;
+    font-style: italic;
+}
+
+#btn_add {
+    background-color: lightgreen;
+}
+
+#btn_sub {
+    background-color: rgb(255, 130, 130);
+}

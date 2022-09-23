@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Budget Manager</title>
+        <link href="./popup.css" rel="stylesheet">
+        <script src="./jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <center><u><h2>Budget Manager</h2></u></center>
+            <center><em><h4 id="disp_exceedAlert"></h4></em></center>
+            <h3>Budget: <span id="disp_budget">0</span></h3>
+            <h3>Amount Spent: <span id="disp_amountSpent">0</span></h3>
+            <input id="input" type="number" placeholder="Amount">
+            <br/><br/>
+            <div>
+                <button id="btn_add">[ + ]</button>
+                <button id="btn_sub">[ - ]</button>
+            </div>
+            <div>
+                <button id="btn_reset">Reset</button>
+                <button id="btn_setBudget">Set Budget</button>
+            </div>
+        </div>
+
+        <script src="./popup.js"></script>
+    </body>
+</html>
